@@ -1,7 +1,6 @@
 from django.contrib import admin
-from django.urls import include, re_path, path
-# from django.urls import path
-# from django.conf.urls import url
+from django.urls import path
+
 from graphene_django.views import GraphQLView
 
 urlpatterns = [
